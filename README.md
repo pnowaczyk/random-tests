@@ -4,7 +4,16 @@
 
 random code/tests/integration bits
 
+to install requirements
+```
+pip install -r requirements.txt
+```
+
 to run tests
 ```
-python -m unittest discover
+py.test incubator
+```
+or
+```
+python -m pytest incubator
 ```
